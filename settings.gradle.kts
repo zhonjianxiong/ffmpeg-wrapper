@@ -23,3 +23,4 @@ dependencyResolutionManagement {
 rootProject.name = "ffmpeg-wrapper"
 include(":app")
 include(":ffmpeg-kit-https")
+include(":ffmpeg-wrapper")

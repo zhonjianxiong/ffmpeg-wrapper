@@ -1,4 +1,4 @@
-package com.andy.ffmpeg_kit_https;
+package com.andy.ffmpeg_wrapper;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
 	public void useAppContext() {
 		// Context of the app under test.
 		Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-		assertEquals("com.andy.ffmpeg_kit_https", appContext.getPackageName());
+		assertEquals("com.andy.ffmpeg_wrapper.test", appContext.getPackageName());
 	}
 }
